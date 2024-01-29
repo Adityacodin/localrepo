@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class parameterisedREC {
     static int sumOf(int i){
         if(i==0){
-            return i;
+            return 0;
         }
         return i+sumOf(i-1);
     }
